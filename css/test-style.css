@@ -1,0 +1,17 @@
+/* Test style to confirm CSS is loading */
+body {
+  border-top: 10px solid #ff0000 !important; /* Bright red for clear visibility */
+  border-bottom: 10px solid #00ff00 !important; /* Bright green for clear visibility */
+}
+
+/* Adding a very visible element to confirm CSS loading */
+#root::before {
+  content: "CSS is loaded!";
+  display: block;
+  background-color: #ff0000;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+}
