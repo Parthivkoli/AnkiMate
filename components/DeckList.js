@@ -1,5 +1,3 @@
-"use client"
-
 // Deck List Component (Home Screen)
 window.DeckList = ({ decks, onSelectDeck, onCreateDeck, onImportDeck }) => {
   const handleImportClick = () => {

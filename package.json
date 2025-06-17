@@ -1,8 +1,14 @@
 {
-  "name": "my-v0-project",
+  "name": "ankimate",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "scripts": {
-    "build": "echo 'no build script'"
+    "build": "echo 'no build script needed - static site'",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d ."
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }

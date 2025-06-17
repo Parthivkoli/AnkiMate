@@ -52,6 +52,8 @@ cd AnkiMate
 ### Option 3: GitHub Pages
 Visit the live demo: [https://parthivkoli.github.io/AnkiMate](https://parthivkoli.github.io/AnkiMate)
 
+For detailed instructions on deploying to GitHub Pages, see [GITHUB_PAGES.md](GITHUB_PAGES.md)
+
 ## 📖 How to Use
 
 ### Getting Started
@@ -173,16 +175,3 @@ Try these sample cards to see AnkiMate in action:
 
 **Happy Learning!** 📚✨
 ```
-
-This README provides a comprehensive overview of your AnkiMate project with:
-
-- **Professional presentation** with badges and emojis
-- **Clear feature descriptions** highlighting the analytics dashboard
-- **Multiple installation options** for different user preferences
-- **Detailed usage instructions** for new users
-- **Technical specifications** for developers
-- **Contribution guidelines** to encourage community involvement
-- **Personal branding** with your GitHub username
-- **Motivational language** to encourage usage
-
-The README is structured to be both informative for technical users and accessible for general users who just want to start studying!

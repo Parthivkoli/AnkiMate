@@ -1,5 +1,3 @@
-"use client"
-
 // Modal Component
 window.Modal = ({ isOpen, onClose, title, children }) => {
   if (!isOpen) return null

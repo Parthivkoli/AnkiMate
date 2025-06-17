@@ -1,5 +1,3 @@
-"use client"
-
 // Deck View Component
 window.DeckView = ({ deck, onUpdateDeck, onDeleteDeck, onStartStudy, onAddCard, onEditCard, onDeleteCard }) => {
   const stats = window.SpacedRepetition.getStudyStats(deck.cards)

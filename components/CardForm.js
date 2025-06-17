@@ -1,7 +1,3 @@
-"use client"
-
-import React from "react"
-
 // Card Form Component
 window.CardForm = ({ card, onSave, onCancel }) => {
   const [front, setFront] = React.useState(card?.front || "")

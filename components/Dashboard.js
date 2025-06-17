@@ -1,11 +1,6 @@
 // Dashboard Component
-"use client"
-
-import { useState } from "react"
-
-// Dashboard Component
 window.Dashboard = ({ decks }) => {
-  const [timeRange, setTimeRange] = useState("week")
+  const [timeRange, setTimeRange] = React.useState("week")
 
   const studyStreak = Analytics.getStudyStreak()
   const todayProgress = Analytics.getTodayProgress()

@@ -1,7 +1,3 @@
-"use client"
-
-import React from "react"
-
 // Main App Component
 const { useState, useEffect } = React
 

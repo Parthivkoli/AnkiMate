@@ -1,5 +1,3 @@
-"use client"
-
 // Sidebar Component
 window.Sidebar = ({ decks, selectedDeckId, onSelectDeck, onCreateDeck, onImportDeck }) => {
   const handleImportClick = () => {

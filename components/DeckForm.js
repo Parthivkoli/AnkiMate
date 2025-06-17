@@ -1,7 +1,3 @@
-"use client"
-
-import React from "react"
-
 // Deck Form Component
 window.DeckForm = ({ deck, onSave, onCancel }) => {
   const [name, setName] = React.useState(deck?.name || "")

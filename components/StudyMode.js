@@ -1,7 +1,3 @@
-"use client"
-
-import React from "react"
-
 // Study Mode Component
 window.StudyMode = ({ deck, onComplete, onUpdateCard }) => {
   const [currentCardIndex, setCurrentCardIndex] = React.useState(0)
