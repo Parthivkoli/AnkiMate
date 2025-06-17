@@ -7,12 +7,29 @@ To deploy this application to GitHub Pages, follow these steps:
 1. Fork or clone this repository to your GitHub account
 2. Go to your repository settings on GitHub:
    - Navigate to Settings > Pages
-   - Under "Build and deployment", select "Source" as "GitHub Actions"
+   - Under "Build and deployment", select "GitHub Actions"
 3. The workflow will automatically deploy your site whenever you push to the main branch
 
-## Method 2: Manual Deployment
+## Method 2: Using Deployment Scripts
 
-If the automatic deployment doesn't work, you can follow these manual steps:
+We've included convenient deployment scripts that you can run locally:
+
+### For Windows:
+```
+deploy.bat
+```
+
+### For Linux/Mac:
+```bash
+chmod +x deploy.sh
+./deploy.sh
+```
+
+These scripts will create a gh-pages branch and push your code to GitHub Pages.
+
+## Method 3: Manual Deployment
+
+If the other methods don't work, you can follow these manual steps:
 
 1. Clone the repository to your local machine:
    ```bash
