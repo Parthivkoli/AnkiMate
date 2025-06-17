@@ -5,15 +5,21 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
+permissions:
+  contents: write  # This gives the action write access to the repository
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          persist-credentials: false  # Important for the deploy action
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: .  # The folder the action should deploy
           branch: gh-pages  # The branch the action should deploy to
+          token: ${{ secrets.GITHUB_TOKEN }}  # The GitHub token provided by Actions
